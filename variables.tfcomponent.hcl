@@ -5,7 +5,7 @@ variable "parent_directory" {
 }
 
 variable "environment_name" {
-  description = "Environment to deploy - bridge to Stacks"
+  description = "Environment to deploy"
   type        = string
   default     = "DEFAULT_TARGET"
 }
